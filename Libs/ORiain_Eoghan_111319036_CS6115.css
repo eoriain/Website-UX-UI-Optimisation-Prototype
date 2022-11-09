@@ -1,0 +1,102 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-image: url("../Assets/home-splash.png"), url("../Assets/banner-grid.png");
+  background-repeat: no-repeat, repeat;
+  background-size: cover, auto;
+  background-color: #106EE1;
+  min-width: 860px;
+}
+img{
+  width: 100%;
+  position: relative;
+}
+#dropSection button{
+  font-size: 1.8vw;
+  border: 5px solid black;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+}
+ol {
+  border: 2px solid black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  list-style-type:none;
+  z-index: 1;
+}
+li a {
+  display: inline-block;
+  white-space: nowrap;
+  float: left;
+  width: 13vw;
+  text-align: center;
+  font-size: 2em;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #BBBCBC;
+  text-shadow: 0px 0px 5px black;
+  cursor: pointer;
+}
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0.5;
+  cursor: pointer;
+}
+div:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 1;
+}
+
+#dropSection {
+  width: 11vw;
+  height: 11vw;
+  margin-left: 43vw;
+  margin-top: 15%;
+  padding: 20px;
+  padding-top: 1%;
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: grey;
+  opacity: 0.75;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.2vw;
+}
+#dropSection:hover {
+  opacity: 0.9;
+}
+#fileDisplaySection {
+  width: 11vw;
+  height: 5.5vw;
+  margin-left: 43vw;
+  margin-top: 0.1%;
+  padding: 20px;
+  padding-top: 1%;
+  border: 2px solid #3b3a3a;
+  border-radius: 25px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1vw;
+}
